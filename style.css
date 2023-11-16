@@ -243,9 +243,8 @@ pre code {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
-    z-index: 1;
     margin-top: 2rem;
-    z-index: 2;
+    z-index: 3;
 }
 .title-box:hover .dropdown-content {
     display: block;
@@ -276,4 +275,24 @@ pre code {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+/* separating sections line */
+.street {
+    width: 70%;
+    height: 2rem;
+    background-color: #50443f;
+    border-radius: 0.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.street .line {
+    width: 90%;
+    position: absolute;
+    border: none;
+    border-top: 0.3rem dashed var(--secondary-color);
+    color: #50443f;
+    background-color: #50443f;
+    /* height: 0.7rem; */
 }
