@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Little Neck</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <div class="box">
@@ -30,7 +31,11 @@
                         </div>
                     </div>
                     <h1 class="headline">Little Neck/Douglaston</h1>
-                    <img src="search.png" alt="search icon" class="icon" />
+                    <img
+                        src="media/search.png"
+                        alt="search icon"
+                        class="icon"
+                    />
                 </div>
             </section>
             <section class="welcome">
@@ -43,14 +48,18 @@
                     >
                 </div>
                 <div class="welcome-caption">
-                    <img src="down.png" alt="down arrow" />
+                    <img src="media/down.png" alt="down arrow" />
                     <h3 class="text">Here is where your trip begins</h3>
-                    <img src="down.png" alt="down arrow" />
+                    <img src="media/down.png" alt="down arrow" />
                 </div>
             </section>
             <section id="template">
                 <a id="blurb"></a>
-                <img src="compass.png" alt="compass image" class="image" />
+                <img
+                    src="media/compass.png"
+                    alt="compass image"
+                    class="image"
+                />
                 <div class="text-group">
                     <h1>Summary of HC #</h1>
                     <p class="pg">
@@ -64,7 +73,7 @@
                     </p>
                 </div>
             </section>
-            <section id="template">
+            <section id="template" data-aos="fade-up">
                 <a id="hc-two"></a>
                 <iframe
                     src="boroughAnalysis.pdf"
@@ -107,7 +116,7 @@
                     </ul>
                 </div>
             </section>
-            <section id="template">
+            <section id="template" data-aos="fade-up">
                 <div class="text-group">
                     <a id="hc-three"></a>
                     <div class="num-sign slant">
@@ -192,9 +201,9 @@
                     </p>
                 </div>
             </section>
-            <section id="template">
+            <section id="template" data-aos="fade-up">
                 <img
-                    src="highlightedMap.png"
+                    src="media/highlightedMap.png"
                     alt="Highlighted image of Little Neck"
                     class="imageMap"
                 />
@@ -211,9 +220,9 @@
                     </p>
                 </div>
             </section>
-            <section id="template">
+            <section id="template" data-aos="fade-up">
                 <img
-                    src="image.png"
+                    src="media/image.png"
                     alt="Image of map of building types in Little Neck"
                     class="imageMap"
                 />
@@ -237,5 +246,9 @@
                 <h2>Coded by Selina Zheng</h2>
             </footer>
         </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

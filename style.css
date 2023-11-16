@@ -22,6 +22,9 @@
     --small-text: medium;
     --mini-text: small;
 }
+html {
+    scroll-behavior: smooth;
+}
 /* entire body */
 .box {
     justify-content: center;
@@ -29,9 +32,17 @@
     display: flex;
     flex-direction: column;
     background-color: var(--secondary-bg);
+    scrollbar-color: var(--primary-color) var(--quad-color);
 }
 section {
     margin-top: 2vw;
+}
+/* scroll bar */
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+::-webkit-scrollbar-track {
+    background: var(--quad-color);
 }
 /* code boxes */
 pre code {
@@ -159,6 +170,9 @@ pre code {
 #template .imageMap {
     width: 30vw;
     border-radius: 0.5rem;
+}
+.map {
+    margin-left: 10%;
 }
 /* yello signs */
 #template .num-sign {
