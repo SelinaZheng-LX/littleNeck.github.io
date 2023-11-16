@@ -18,6 +18,6 @@ The purpose behind this website is to organize the research I did over my Macaul
 
 > Deployed on Netlify
 >
-> Url: littleneck.netlify.app
+>> Url: littleneck.netlify.app
 
 > Coded by Selina Zheng
